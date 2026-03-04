@@ -1,0 +1,12 @@
+# dataset
+data_raw/
+data_processed/
+# large files
+*.parquet
+*.joblib
+*.csv
+# python
+__pycache__/
+*.pyc
+# system
+.DS_Store

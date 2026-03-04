@@ -1,0 +1,59 @@
+{
+  "AAP_Overlap_Agent_0": [
+    "sbytes",
+    "smean",
+    "proto",
+    "dur",
+    "service",
+    "spkts",
+    "sload",
+    "dload",
+    "sloss",
+    "sinpkt",
+    "dinpkt",
+    "sjit",
+    "djit",
+    "trans_depth",
+    "is_ftp_login",
+    "ct_ftp_cmd",
+    "ct_flw_http_mthd",
+    "is_sm_ips_ports"
+  ],
+  "AAP_Overlap_Agent_1": [
+    "sbytes",
+    "smean",
+    "proto",
+    "state",
+    "rate",
+    "ct_srv_src",
+    "ct_dst_ltm",
+    "ct_src_dport_ltm",
+    "ct_dst_sport_ltm",
+    "ct_dst_src_ltm",
+    "ct_src_ltm",
+    "ct_srv_dst"
+  ],
+  "AAP_Overlap_Agent_2": [
+    "sbytes",
+    "smean",
+    "proto",
+    "dttl",
+    "swin",
+    "stcpb",
+    "dtcpb",
+    "dwin",
+    "tcprtt",
+    "synack",
+    "ackdat"
+  ],
+  "AAP_Overlap_Agent_3": [
+    "sbytes",
+    "smean",
+    "proto",
+    "dpkts",
+    "dbytes",
+    "dloss",
+    "dmean",
+    "response_body_len"
+  ]
+}
