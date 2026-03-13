@@ -1,0 +1,54 @@
+{
+  "partition_mode": "RANDOM",
+  "best_l0_agent": "Agent_0",
+  "adaptive_thresholds": {
+    "tau1": 0.7568323058997821,
+    "tau2": 0.7568069702957758,
+    "tau3": 0.7553146383404732,
+    "val_tpr": 0.999981393618011,
+    "val_pr": 0.9999780301816213,
+    "val_avg_cost": 1.8961523053618599,
+    "val_monitor_fpr": 0.009997773240388136,
+    "objective": 1.0347814498145331,
+    "frac_top1": 0.70128256487938,
+    "frac_top2": 0.0,
+    "frac_top3": 0.0,
+    "frac_all": 0.29871743512061993
+  },
+  "adaptive_route_test": {
+    "frac_top1": 0.752557074703695,
+    "frac_top2": 0.0,
+    "frac_top3": 0.0,
+    "frac_all": 0.247442925296305
+  },
+  "adaptive_route_calib_threshold": {
+    "frac_top1": 0.0,
+    "frac_top2": 0.0,
+    "frac_top3": 0.0,
+    "frac_all": 1.0
+  },
+  "adaptive_route_calib_monitor": {
+    "frac_top1": 0.0,
+    "frac_top2": 0.0,
+    "frac_top3": 0.0,
+    "frac_all": 1.0
+  },
+  "attention_ap_weights": {
+    "Agent_0": 0.25870018488051805,
+    "Agent_1": 0.22719074583445006,
+    "Agent_2": 0.25797963371499466,
+    "Agent_3": 0.25612943557003715
+  },
+  "attention_robust_weights": {
+    "Agent_0": 0.2553191117948714,
+    "Agent_1": 0.23249384783476634,
+    "Agent_2": 0.2571728561636262,
+    "Agent_3": 0.2550141842067362
+  },
+  "health": {
+    "Agent_0": 0.3937309161344177,
+    "Agent_1": 0.40825711239137197,
+    "Agent_2": 0.3976972957333724,
+    "Agent_3": 0.39720780729735483
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "partition_mode": "supervised",
+  "model_path": "models\\local_agents_supervised.joblib",
+  "agent_names": [
+    "Agent_0",
+    "Agent_1",
+    "Agent_2",
+    "Agent_3"
+  ],
+  "inventory_file": "results_agent_consistency\\agent_inventory_supervised.csv",
+  "pairwise_file": "results_agent_consistency\\agent_pairwise_supervised.csv",
+  "split_summary": [
+    {
+      "split": "val",
+      "n_agents": 4,
+      "duplicate_prediction_groups": [],
+      "any_duplicate_predictions": false,
+      "matrix_shape": [
+        319516,
+        4
+      ],
+      "agent_order": [
+        "Agent_0",
+        "Agent_1",
+        "Agent_2",
+        "Agent_3"
+      ]
+    },
+    {
+      "split": "test",
+      "n_agents": 4,
+      "duplicate_prediction_groups": [],
+      "any_duplicate_predictions": false,
+      "matrix_shape": [
+        703245,
+        4
+      ],
+      "agent_order": [
+        "Agent_0",
+        "Agent_1",
+        "Agent_2",
+        "Agent_3"
+      ]
+    },
+    {
+      "split": "cal_a",
+      "n_agents": 4,
+      "duplicate_prediction_groups": [],
+      "any_duplicate_predictions": false,
+      "matrix_shape": [
+        264959,
+        4
+      ],
+      "agent_order": [
+        "Agent_0",
+        "Agent_1",
+        "Agent_2",
+        "Agent_3"
+      ]
+    },
+    {
+      "split": "cal_b",
+      "n_agents": 4,
+      "duplicate_prediction_groups": [],
+      "any_duplicate_predictions": false,
+      "matrix_shape": [
+        264959,
+        4
+      ],
+      "agent_order": [
+        "Agent_0",
+        "Agent_1",
+        "Agent_2",
+        "Agent_3"
+      ]
+    }
+  ],
+  "agent_2_vs_3": {
+    "agent_a": "Agent_2",
+    "agent_b": "Agent_3",
+    "n_cols_a": 5,
+    "n_cols_b": 32,
+    "exact_same_order": false,
+    "exact_same_set": false,
+    "overlap_count": 3,
+    "jaccard": 0.08823529411764706,
+    "overlap_preview": [
+      "Destination_Port",
+      "Init_Win_bytes_backward",
+      "Init_Win_bytes_forward"
+    ],
+    "val_same_shape": 1.0,
+    "val_max_abs_diff": 0.9999907262160734,
+    "val_mean_abs_diff": 0.0023066144654403688,
+    "val_corr": 0.9961020472368602,
+    "val_exact_equal": 0.0,
+    "val_near_equal_1e_12": 0.0,
+    "val_near_equal_1e_9": 0.0,
+    "test_same_shape": 1.0,
+    "test_max_abs_diff": 0.9991967923321704,
+    "test_mean_abs_diff": 0.02010091920829992,
+    "test_corr": 0.5431135808189781,
+    "test_exact_equal": 0.0,
+    "test_near_equal_1e_12": 0.0,
+    "test_near_equal_1e_9": 0.0,
+    "cal_a_same_shape": 1.0,
+    "cal_a_max_abs_diff": 0.9991967923321704,
+    "cal_a_mean_abs_diff": 0.0013151924112878267,
+    "cal_a_corr": 0.3583884115477142,
+    "cal_a_exact_equal": 0.0,
+    "cal_a_near_equal_1e_12": 0.0,
+    "cal_a_near_equal_1e_9": 0.0,
+    "cal_b_same_shape": 1.0,
+    "cal_b_max_abs_diff": 0.9991967923321704,
+    "cal_b_mean_abs_diff": 0.001320113464750484,
+    "cal_b_corr": 0.44637481437256177,
+    "cal_b_exact_equal": 0.0,
+    "cal_b_near_equal_1e_12": 0.0,
+    "cal_b_near_equal_1e_9": 0.0
+  }
+}

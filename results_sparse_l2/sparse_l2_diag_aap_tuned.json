@@ -1,0 +1,54 @@
+{
+  "partition_mode": "AAP",
+  "best_l0_agent": "Agent_2",
+  "adaptive_thresholds": {
+    "tau1": 0.7633246427758736,
+    "tau2": 0.7625098846919807,
+    "tau3": 0.7590430506728009,
+    "val_tpr": 0.999981393618011,
+    "val_pr": 0.9999605633626827,
+    "val_avg_cost": 1.8602949461059852,
+    "val_monitor_fpr": 0.01006570827939417,
+    "objective": 1.032797438619635,
+    "frac_top1": 0.7132350179646716,
+    "frac_top2": 0.0,
+    "frac_top3": 0.0,
+    "frac_all": 0.2867649820353284
+  },
+  "adaptive_route_test": {
+    "frac_top1": 0.7739735085212124,
+    "frac_top2": 0.0,
+    "frac_top3": 0.0,
+    "frac_all": 0.22602649147878762
+  },
+  "adaptive_route_calib_threshold": {
+    "frac_top1": 0.0,
+    "frac_top2": 0.0,
+    "frac_top3": 0.0,
+    "frac_all": 1.0
+  },
+  "adaptive_route_calib_monitor": {
+    "frac_top1": 0.0,
+    "frac_top2": 0.0,
+    "frac_top3": 0.0,
+    "frac_all": 1.0
+  },
+  "attention_ap_weights": {
+    "Agent_0": 0.27258629934739875,
+    "Agent_1": 0.18777730253454514,
+    "Agent_2": 0.2712292841815688,
+    "Agent_3": 0.26840711393648736
+  },
+  "attention_robust_weights": {
+    "Agent_0": 0.2661232147921081,
+    "Agent_1": 0.19857217293917312,
+    "Agent_2": 0.26761073100077515,
+    "Agent_3": 0.2676938812679437
+  },
+  "health": {
+    "Agent_0": 0.39613293074556033,
+    "Agent_1": 0.42907923909622925,
+    "Agent_2": 0.4003401579099096,
+    "Agent_3": 0.40467523894174245
+  }
+}

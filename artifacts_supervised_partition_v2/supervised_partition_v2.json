@@ -1,0 +1,618 @@
+{
+  "shared_features": [
+    "Init_Win_bytes_forward",
+    "Init_Win_bytes_backward",
+    "Destination_Port"
+  ],
+  "groups": {
+    "Agent_0": [
+      {
+        "feature": "Flow_Duration",
+        "gbm_importance": 0.6386138613856117,
+        "mutual_info": 0.8708469447110774,
+        "single_ap": 0.9765480026335671,
+        "single_auc": 0.971064670115594,
+        "supervised_score": 0.8196858012980898
+      },
+      {
+        "feature": "Fwd_IAT_Max",
+        "gbm_importance": 0.4051155115508209,
+        "mutual_info": 0.8727170636659601,
+        "single_ap": 0.9933912753283816,
+        "single_auc": 0.9668278578654593,
+        "supervised_score": 0.7312897857385809
+      },
+      {
+        "feature": "Total_Backward_Packets",
+        "gbm_importance": 0.15924092409227786,
+        "mutual_info": 0.5945369773367184,
+        "single_ap": 0.7472558198647643,
+        "single_auc": 0.9356280109934972,
+        "supervised_score": 0.5003433121630338
+      },
+      {
+        "feature": "Bwd_IAT_Total",
+        "gbm_importance": 0.11056105610551933,
+        "mutual_info": 0.6367336814745538,
+        "single_ap": 0.7930531994898181,
+        "single_auc": 0.9074229231024171,
+        "supervised_score": 0.5002294108943056
+      },
+      {
+        "feature": "Idle_Max",
+        "gbm_importance": 0.1452145214520254,
+        "mutual_info": 0.6185768044594704,
+        "single_ap": 0.7782817718302392,
+        "single_auc": 0.8392033956620903,
+        "supervised_score": 0.499206040587985
+      },
+      {
+        "feature": "Active_Min",
+        "gbm_importance": 0.12046204620452107,
+        "mutual_info": 0.6198967695277275,
+        "single_ap": 0.7708893629606818,
+        "single_auc": 0.8334140851598123,
+        "supervised_score": 0.4867723897915397
+      },
+      {
+        "feature": "Bwd_IAT_Mean",
+        "gbm_importance": 0.13118811881177295,
+        "mutual_info": 0.5853068635659384,
+        "single_ap": 0.7543871415815707,
+        "single_auc": 0.8914530429114673,
+        "supervised_score": 0.48499806700351483
+      },
+      {
+        "feature": "Fwd_Packet_Length_Mean",
+        "gbm_importance": 0.24669966996679316,
+        "mutual_info": 0.6501165236483698,
+        "single_ap": 0.5620125705988669,
+        "single_auc": 0.8724470460395599,
+        "supervised_score": 0.48455164850000726
+      },
+      {
+        "feature": "Active_Max",
+        "gbm_importance": 0.057755775577510104,
+        "mutual_info": 0.6331420020356222,
+        "single_ap": 0.7734614595947332,
+        "single_auc": 0.8358533385382475,
+        "supervised_score": 0.4653544823703732
+      },
+      {
+        "feature": "Active_Mean",
+        "gbm_importance": 0.04702970297025823,
+        "mutual_info": 0.6317254728964148,
+        "single_ap": 0.772113785691122,
+        "single_auc": 0.8350101901856607,
+        "supervised_score": 0.460292130493289
+      },
+      {
+        "feature": "Idle_Mean",
+        "gbm_importance": 0.056930693069259956,
+        "mutual_info": 0.6029148656378125,
+        "single_ap": 0.7730075977513349,
+        "single_auc": 0.8334384185132743,
+        "supervised_score": 0.4586013715319944
+      },
+      {
+        "feature": "Bwd_IAT_Min",
+        "gbm_importance": 0.17739273927378102,
+        "mutual_info": 0.44093031191856025,
+        "single_ap": 0.7071149465877752,
+        "single_auc": 0.8397879829091136,
+        "supervised_score": 0.4552564403604684
+      },
+      {
+        "feature": "Subflow_Bwd_Packets",
+        "gbm_importance": 0.014026402640252454,
+        "mutual_info": 0.5943459768332009,
+        "single_ap": 0.7472558198647643,
+        "single_auc": 0.9356280109934972,
+        "supervised_score": 0.4422193034815202
+      },
+      {
+        "feature": "Bwd_IAT_Std",
+        "gbm_importance": 0.08828382838276544,
+        "mutual_info": 0.4902820162800682,
+        "single_ap": 0.7428373371598451,
+        "single_auc": 0.8338426916918598,
+        "supervised_score": 0.4396054049262593
+      },
+      {
+        "feature": "Total_Fwd_Packets",
+        "gbm_importance": 0.20132013201303522,
+        "mutual_info": 0.3889224119235597,
+        "single_ap": 0.6132357193331013,
+        "single_auc": 0.8585393279105289,
+        "supervised_score": 0.42813718378090937
+      },
+      {
+        "feature": "Avg_Fwd_Segment_Size",
+        "gbm_importance": 0.06765676567651184,
+        "mutual_info": 0.6488723818674331,
+        "single_ap": 0.5620125705988669,
+        "single_auc": 0.8724470460395599,
+        "supervised_score": 0.4126856584277074
+      },
+      {
+        "feature": "Subflow_Fwd_Packets",
+        "gbm_importance": 0.01897689768975332,
+        "mutual_info": 0.3890928021024088,
+        "single_ap": 0.6132357193331013,
+        "single_auc": 0.8585393279105289,
+        "supervised_score": 0.3552339680873664
+      },
+      {
+        "feature": "Min_Packet_Length",
+        "gbm_importance": 0.14191419141902484,
+        "mutual_info": 0.43207906341894875,
+        "single_ap": 0.4049306080785544,
+        "single_auc": 0.8288431830697109,
+        "supervised_score": 0.34754498998193706
+      },
+      {
+        "feature": "Fwd_Packet_Length_Min",
+        "gbm_importance": 0.13531353135302368,
+        "mutual_info": 0.39642108409901616,
+        "single_ap": 0.4038607344789716,
+        "single_auc": 0.8244251604205272,
+        "supervised_score": 0.3370103657467569
+      },
+      {
+        "feature": "Bwd_Packet_Length_Min",
+        "gbm_importance": 0.12623762376227207,
+        "mutual_info": 0.3652315571218169,
+        "single_ap": 0.3672709944126014,
+        "single_auc": 0.7970217851166846,
+        "supervised_score": 0.3134248377647211
+      },
+      {
+        "feature": "URG_Flag_Count",
+        "gbm_importance": 0.4480198019798284,
+        "mutual_info": 0.05111640916302395,
+        "single_ap": 0.22105894047182378,
+        "single_auc": 0.5665942070036053,
+        "supervised_score": 0.3124083054664438
+      },
+      {
+        "feature": "Down/Up_Ratio",
+        "gbm_importance": 0.10396039603951819,
+        "mutual_info": 0.44728204348947204,
+        "single_ap": 0.29969298678358147,
+        "single_auc": 0.6911056209470017,
+        "supervised_score": 0.2900590252434763
+      },
+      {
+        "feature": "ACK_Flag_Count",
+        "gbm_importance": 0.1377887788777741,
+        "mutual_info": 0.3019672251497744,
+        "single_ap": 0.321322385630727,
+        "single_auc": 0.7078033511964603,
+        "supervised_score": 0.28268600738992866
+      },
+      {
+        "feature": "FIN_Flag_Count",
+        "gbm_importance": 0.16914191419127958,
+        "mutual_info": 0.14267532568588762,
+        "single_ap": 0.3521013940952884,
+        "single_auc": 0.6258480666748966,
+        "supervised_score": 0.2644070557097655
+      },
+      {
+        "feature": "min_seg_size_forward",
+        "gbm_importance": 0.26155115511529575,
+        "mutual_info": 0.06748530949506823,
+        "single_ap": 0.2644259602960942,
+        "single_auc": 0.6498884350858933,
+        "supervised_score": 0.26243415554254956
+      },
+      {
+        "feature": "act_data_pkt_fwd",
+        "gbm_importance": 0.09818481848176717,
+        "mutual_info": 0.10783063954380077,
+        "single_ap": 0.3406089934009959,
+        "single_auc": 0.6718887514574107,
+        "supervised_score": 0.23021162846750687
+      },
+      {
+        "feature": "PSH_Flag_Count",
+        "gbm_importance": 0.14768976897677583,
+        "mutual_info": 0.16125604659360632,
+        "single_ap": 0.22881911412074185,
+        "single_auc": 0.5850930568333444,
+        "supervised_score": 0.2184821568289886
+      },
+      {
+        "feature": "Idle_Std",
+        "gbm_importance": 0.03052805280525534,
+        "mutual_info": 0.07511781202377,
+        "single_ap": 0.24849814097538933,
+        "single_auc": 0.580621679482808,
+        "supervised_score": 0.15984639376775372
+      },
+      {
+        "feature": "Active_Std",
+        "gbm_importance": 0.04537953795375794,
+        "mutual_info": 0.05308801103930564,
+        "single_ap": 0.22632417444937622,
+        "single_auc": 0.5699932696755255,
+        "supervised_score": 0.15366599669172973
+      },
+      {
+        "feature": "Fwd_PSH_Flags",
+        "gbm_importance": 0.06105610561051068,
+        "mutual_info": 0.013699734621490624,
+        "single_ap": 0.20903704337889578,
+        "single_auc": 0.5333556796596902,
+        "supervised_score": 0.14320907014814016
+      },
+      {
+        "feature": "SYN_Flag_Count",
+        "gbm_importance": 0.01320132013200231,
+        "mutual_info": 0.01405337781984648,
+        "single_ap": 0.20903704337889578,
+        "single_auc": 0.5333556796596902,
+        "supervised_score": 0.12413788459640798
+      },
+      {
+        "feature": "Fwd_URG_Flags",
+        "gbm_importance": 0.009075907590751588,
+        "mutual_info": 0.0005201247848657171,
+        "single_ap": 0.20464515771813613,
+        "single_auc": 0.5202292486887082,
+        "supervised_score": 0.11715086017758544
+      },
+      {
+        "feature": "Fwd_Avg_Bulk_Rate",
+        "gbm_importance": 0.0,
+        "mutual_info": 0.0010558851508433308,
+        "single_ap": 0.20459968329370043,
+        "single_auc": 0.5200903079770942,
+        "supervised_score": 0.11360011281598822
+      },
+      {
+        "feature": "Fwd_Avg_Packets/Bulk",
+        "gbm_importance": 0.0,
+        "mutual_info": 0.000974859048143664,
+        "single_ap": 0.20459968329370043,
+        "single_auc": 0.5200903079770942,
+        "supervised_score": 0.11358390759544829
+      },
+      {
+        "feature": "ECE_Flag_Count",
+        "gbm_importance": 0.0,
+        "mutual_info": 0.0,
+        "single_ap": 0.20466758212726588,
+        "single_auc": 0.5202977405887997,
+        "supervised_score": 0.11343004869705975
+      },
+      {
+        "feature": "RST_Flag_Count",
+        "gbm_importance": 0.0,
+        "mutual_info": 0.0,
+        "single_ap": 0.20466694136166255,
+        "single_auc": 0.5202957836773685,
+        "supervised_score": 0.11342966077623562
+      },
+      {
+        "feature": "CWE_Flag_Count",
+        "gbm_importance": 0.0,
+        "mutual_info": 0.0,
+        "single_ap": 0.20464515771813613,
+        "single_auc": 0.5202292486887082,
+        "supervised_score": 0.11341647218431167
+      },
+      {
+        "feature": "Bwd_Avg_Bytes/Bulk",
+        "gbm_importance": 0.0,
+        "mutual_info": 0.00011168913720731648,
+        "single_ap": 0.20459968329370043,
+        "single_auc": 0.5200903079770942,
+        "supervised_score": 0.113411273613261
+      }
+    ],
+    "Agent_1": [
+      {
+        "feature": "Flow_IAT_Max",
+        "gbm_importance": 0.5453795379533454,
+        "mutual_info": 0.9170791668509339,
+        "single_ap": 0.9999999987836474,
+        "single_auc": 0.9804821786300255,
+        "supervised_score": 0.7996158660496216
+      },
+      {
+        "feature": "Total_Length_of_Bwd_Packets",
+        "gbm_importance": 0.40016501650132,
+        "mutual_info": 0.9697234267619634,
+        "single_ap": 0.9540453028370643,
+        "single_auc": 0.9841927885927101,
+        "supervised_score": 0.7386435616633111
+      },
+      {
+        "feature": "Bwd_PSH_Flags",
+        "gbm_importance": 0.0,
+        "mutual_info": 0.0,
+        "single_ap": 0.20459968329370043,
+        "single_auc": 0.5200903079770942,
+        "supervised_score": 0.11338893578581954
+      },
+      {
+        "feature": "Fwd_Avg_Bytes/Bulk",
+        "gbm_importance": 0.0,
+        "mutual_info": 0.0,
+        "single_ap": 0.20459968329370043,
+        "single_auc": 0.5200903079770942,
+        "supervised_score": 0.11338893578581954
+      },
+      {
+        "feature": "Bwd_Avg_Bulk_Rate",
+        "gbm_importance": 0.0,
+        "mutual_info": 0.0,
+        "single_ap": 0.20459968329370043,
+        "single_auc": 0.5200903079770942,
+        "supervised_score": 0.11338893578581954
+      },
+      {
+        "feature": "Bwd_Avg_Packets/Bulk",
+        "gbm_importance": 0.0,
+        "mutual_info": 0.0,
+        "single_ap": 0.20459968329370043,
+        "single_auc": 0.5200903079770942,
+        "supervised_score": 0.11338893578581954
+      }
+    ],
+    "Agent_2": [
+      {
+        "feature": "Flow_IAT_Mean",
+        "gbm_importance": 0.5173267326728405,
+        "mutual_info": 0.8530865743814026,
+        "single_ap": 0.9625956914707561,
+        "single_auc": 0.9658617915165291,
+        "supervised_score": 0.7629128945382964
+      },
+      {
+        "feature": "Fwd_IAT_Total",
+        "gbm_importance": 0.5066006600655886,
+        "mutual_info": 0.8009637846527737,
+        "single_ap": 0.959490259305274,
+        "single_auc": 0.9491452519055528,
+        "supervised_score": 0.7455946239389277
+      }
+    ],
+    "Agent_3": [
+      {
+        "feature": "Fwd_Packets/s",
+        "gbm_importance": 0.5156765676563402,
+        "mutual_info": 0.8218775791481354,
+        "single_ap": 0.9485977258704439,
+        "single_auc": 0.9585675813147152,
+        "supervised_score": 0.7510822187847679
+      },
+      {
+        "feature": "Flow_Packets/s",
+        "gbm_importance": 0.480198019801584,
+        "mutual_info": 0.8494826902677228,
+        "single_ap": 0.9665618375470955,
+        "single_auc": 0.9681257560964336,
+        "supervised_score": 0.7487568728479501
+      },
+      {
+        "feature": "Fwd_IAT_Min",
+        "gbm_importance": 0.9999999999991749,
+        "mutual_info": 0.3402110787270908,
+        "single_ap": 0.5812291721328977,
+        "single_auc": 0.8290401319958508,
+        "supervised_score": 0.7253149805845425
+      },
+      {
+        "feature": "Bwd_Packets/s",
+        "gbm_importance": 0.4876237623758353,
+        "mutual_info": 0.8046750130555682,
+        "single_ap": 0.9005622136065495,
+        "single_auc": 0.9563931493378716,
+        "supervised_score": 0.7217924865771997
+      },
+      {
+        "feature": "Fwd_Header_Length",
+        "gbm_importance": 0.5825082508246019,
+        "mutual_info": 0.6535180306130358,
+        "single_ap": 0.8424924790453986,
+        "single_auc": 0.9471529673295028,
+        "supervised_score": 0.7111699468990178
+      },
+      {
+        "feature": "Fwd_Packet_Length_Max",
+        "gbm_importance": 0.41996699669932347,
+        "mutual_info": 0.8247651277235568,
+        "single_ap": 0.9042804218805917,
+        "single_auc": 0.9824554487047493,
+        "supervised_score": 0.7024694956590931
+      },
+      {
+        "feature": "Fwd_IAT_Mean",
+        "gbm_importance": 0.37706270627031596,
+        "mutual_info": 0.8023069126752936,
+        "single_ap": 0.9493510720483906,
+        "single_auc": 0.9479529218095964,
+        "supervised_score": 0.6908870788386618
+      },
+      {
+        "feature": "Flow_Bytes/s",
+        "gbm_importance": 0.4290429042900751,
+        "mutual_info": 0.798553639303928,
+        "single_ap": 0.8786788459693411,
+        "single_auc": 0.9563491703340884,
+        "supervised_score": 0.6905664604010268
+      },
+      {
+        "feature": "Bwd_Packet_Length_Mean",
+        "gbm_importance": 0.24504950495029287,
+        "mutual_info": 0.999999996726113,
+        "single_ap": 0.9497244927465189,
+        "single_auc": 0.9832510125593906,
+        "supervised_score": 0.6812622504052345
+      },
+      {
+        "feature": "Max_Packet_Length",
+        "gbm_importance": 0.1897689768975332,
+        "mutual_info": 0.9763213727443046,
+        "single_ap": 0.9888475230342182,
+        "single_auc": 0.9999999989598194,
+        "supervised_score": 0.6678261221141216
+      },
+      {
+        "feature": "Packet_Length_Std",
+        "gbm_importance": 0.20049504950478508,
+        "mutual_info": 0.9680352237877847,
+        "single_ap": 0.958190990079073,
+        "single_auc": 0.9794062406886589,
+        "supervised_score": 0.6592029856520587
+      },
+      {
+        "feature": "Flow_IAT_Min",
+        "gbm_importance": 0.9958745874579242,
+        "mutual_info": 0.2393083250038352,
+        "single_ap": 0.44474964600906214,
+        "single_auc": 0.7822354358929655,
+        "supervised_score": 0.6578599373759519
+      },
+      {
+        "feature": "Bwd_Header_Length",
+        "gbm_importance": 0.337458745874309,
+        "mutual_info": 0.7582524668163055,
+        "single_ap": 0.8927815643382787,
+        "single_auc": 0.9686047863866284,
+        "supervised_score": 0.6513289396531312
+      },
+      {
+        "feature": "Bwd_Packet_Length_Std",
+        "gbm_importance": 0.3498349834980612,
+        "mutual_info": 0.8035037502740414,
+        "single_ap": 0.8687874741763084,
+        "single_auc": 0.8919416045928462,
+        "supervised_score": 0.65046514616621
+      },
+      {
+        "feature": "Bwd_Packet_Length_Max",
+        "gbm_importance": 0.20049504950478508,
+        "mutual_info": 0.9282857540247373,
+        "single_ap": 0.9414400909890701,
+        "single_auc": 0.9814335373576862,
+        "supervised_score": 0.6464305516393513
+      },
+      {
+        "feature": "Average_Packet_Size",
+        "gbm_importance": 0.15924092409227786,
+        "mutual_info": 0.9897177501254013,
+        "single_ap": 0.9472173169255045,
+        "single_auc": 0.9841516088333947,
+        "supervised_score": 0.6442202756229822
+      },
+      {
+        "feature": "Flow_IAT_Std",
+        "gbm_importance": 0.3630363036300635,
+        "mutual_info": 0.7137636062825237,
+        "single_ap": 0.8689874620195535,
+        "single_auc": 0.9200105714433742,
+        "supervised_score": 0.6406645384587337
+      },
+      {
+        "feature": "Packet_Length_Mean",
+        "gbm_importance": 0.13696369636952396,
+        "mutual_info": 0.9930692866702322,
+        "single_ap": 0.9475299941535674,
+        "single_auc": 0.9837456104996583,
+        "supervised_score": 0.636032895177892
+      },
+      {
+        "feature": "Total_Length_of_Fwd_Packets",
+        "gbm_importance": 0.2689768976895471,
+        "mutual_info": 0.7601798940360512,
+        "single_ap": 0.8556231523309191,
+        "single_auc": 0.9642548907988995,
+        "supervised_score": 0.6127391726621947
+      },
+      {
+        "feature": "Subflow_Bwd_Bytes",
+        "gbm_importance": 0.057755775577510104,
+        "mutual_info": 0.970603423805455,
+        "single_ap": 0.9540453028370643,
+        "single_auc": 0.9841927885927101,
+        "supervised_score": 0.6018558647024854
+      },
+      {
+        "feature": "Avg_Bwd_Segment_Size",
+        "gbm_importance": 0.04042904290425707,
+        "mutual_info": 0.9995714431584686,
+        "single_ap": 0.9497244927465189,
+        "single_auc": 0.9832510125593906,
+        "supervised_score": 0.5993283548732913
+      },
+      {
+        "feature": "Fwd_IAT_Std",
+        "gbm_importance": 0.251650165016294,
+        "mutual_info": 0.7142647449286483,
+        "single_ap": 0.8749819431083796,
+        "single_auc": 0.8894104719561298,
+        "supervised_score": 0.5949486451203742
+      },
+      {
+        "feature": "Packet_Length_Variance",
+        "gbm_importance": 0.03382838283825592,
+        "mutual_info": 0.9680314727236078,
+        "single_ap": 0.958190990079073,
+        "single_auc": 0.9794062406886589,
+        "supervised_score": 0.5925355687726117
+      },
+      {
+        "feature": "Fwd_Header_Length.1",
+        "gbm_importance": 0.17574257425728074,
+        "mutual_info": 0.6551719703740587,
+        "single_ap": 0.8424924790453986,
+        "single_auc": 0.9471529673295028,
+        "supervised_score": 0.5487944642242939
+      },
+      {
+        "feature": "Bwd_IAT_Max",
+        "gbm_importance": 0.17409240924078045,
+        "mutual_info": 0.6923939017524126,
+        "single_ap": 0.8201316232082742,
+        "single_auc": 0.9151867904092181,
+        "supervised_score": 0.5456739100501988
+      },
+      {
+        "feature": "Fwd_Packet_Length_Std",
+        "gbm_importance": 0.27062706270604736,
+        "mutual_info": 0.7320082525214608,
+        "single_ap": 0.6760334102272452,
+        "single_auc": 0.8588722332264901,
+        "supervised_score": 0.5433497219775336
+      },
+      {
+        "feature": "Idle_Min",
+        "gbm_importance": 0.22442244224403926,
+        "mutual_info": 0.6099237764127804,
+        "single_ap": 0.7754297600753092,
+        "single_auc": 0.8358283911125689,
+        "supervised_score": 0.5279654993140214
+      },
+      {
+        "feature": "Subflow_Fwd_Bytes",
+        "gbm_importance": 0.04125412541250722,
+        "mutual_info": 0.7588385450496626,
+        "single_ap": 0.8556231523309191,
+        "single_auc": 0.9642548907988995,
+        "supervised_score": 0.5213817939541011
+      },
+      {
+        "feature": "Bwd_URG_Flags",
+        "gbm_importance": 0.0,
+        "mutual_info": 0.0,
+        "single_ap": 0.20459968329370043,
+        "single_auc": 0.5200903079770942,
+        "supervised_score": 0.11338893578581954
+      }
+    ]
+  },
+  "rebalance_history": []
+}

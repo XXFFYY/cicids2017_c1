@@ -1,0 +1,117 @@
+[
+  {
+    "partition_mode": "RANDOM",
+    "status": "missing_model",
+    "model_path": "models\\local_agents_random.joblib"
+  },
+  {
+    "partition_mode": "AAP",
+    "status": "missing_model",
+    "model_path": "models\\local_agents_aap.joblib"
+  },
+  {
+    "partition_mode": "SUPERVISED",
+    "status": "ok",
+    "anchor_agent": "Agent_1",
+    "anchor_feature_count": 9,
+    "anchor_validation_ranking": [
+      {
+        "partition_mode": "SUPERVISED",
+        "agent": "Agent_1",
+        "val_proxy_tpr": 0.999981393618011,
+        "val_pr_auc": 0.9998669403522975,
+        "val_roc_auc": 0.999974937521092,
+        "anchor_threshold_from_cal_a": 0.0005834056077906286
+      },
+      {
+        "partition_mode": "SUPERVISED",
+        "agent": "Agent_3",
+        "val_proxy_tpr": 0.9999627872360219,
+        "val_pr_auc": 0.9999771506453513,
+        "val_roc_auc": 0.9999916069269862,
+        "anchor_threshold_from_cal_a": 2.2583961443293323e-05
+      },
+      {
+        "partition_mode": "SUPERVISED",
+        "agent": "Agent_0",
+        "val_proxy_tpr": 0.9999627872360219,
+        "val_pr_auc": 0.9999595089485069,
+        "val_roc_auc": 0.9999920336673057,
+        "anchor_threshold_from_cal_a": 0.00010684811745957445
+      },
+      {
+        "partition_mode": "SUPERVISED",
+        "agent": "Agent_2",
+        "val_proxy_tpr": 0.9999627872360219,
+        "val_pr_auc": 0.9998685167650665,
+        "val_roc_auc": 0.9999729780020749,
+        "anchor_threshold_from_cal_a": 0.0009956555226306458
+      }
+    ],
+    "best_partner_row": {
+      "partition_mode": "SUPERVISED",
+      "anchor_agent": "Agent_1",
+      "partner_agent": "Agent_3",
+      "anchor_weight": 0.24987227845560797,
+      "partner_weight": 0.2501478152330095,
+      "anchor_threshold": 0.0005834056077906286,
+      "partner_threshold": 2.2583961443293323e-05,
+      "pair_threshold": 0.0003259334874660988,
+      "anchor_tpr_at_fpr1": 0.30014917469360347,
+      "partner_tpr_at_fpr1": 0.4536606639139148,
+      "pair_tpr_at_fpr1": 0.45296843795751807,
+      "pair_gain_vs_anchor": 0.1528192632639146,
+      "pair_pr_auc": 0.7364051308877008,
+      "pair_roc_auc": 0.7563022585216542,
+      "pair_monitor_fpr": 0.00990719318838009,
+      "anchor_tp": 86720,
+      "partner_tp": 131073,
+      "overlap_tp": 85734,
+      "union_tp_oracle": 132059,
+      "union_tpr_oracle": 0.45707333787895044,
+      "added_tp_oracle": 45339,
+      "added_tpr_oracle": 0.15692416318534697,
+      "added_tp_pair": 44153,
+      "added_tpr_pair": 0.1528192632639146,
+      "anchor_miss_count": 202203,
+      "test_score_corr": 0.5922290287913753,
+      "test_pos_score_corr": 0.5751621554648013,
+      "test_neg_score_corr": 0.32935737077169597,
+      "partner_feature_count": 32,
+      "partner_feature_overlap_with_anchor": 3
+    },
+    "best_oracle_partner": {
+      "partition_mode": "SUPERVISED",
+      "anchor_agent": "Agent_1",
+      "partner_agent": "Agent_3",
+      "anchor_weight": 0.24987227845560797,
+      "partner_weight": 0.2501478152330095,
+      "anchor_threshold": 0.0005834056077906286,
+      "partner_threshold": 2.2583961443293323e-05,
+      "pair_threshold": 0.0003259334874660988,
+      "anchor_tpr_at_fpr1": 0.30014917469360347,
+      "partner_tpr_at_fpr1": 0.4536606639139148,
+      "pair_tpr_at_fpr1": 0.45296843795751807,
+      "pair_gain_vs_anchor": 0.1528192632639146,
+      "pair_pr_auc": 0.7364051308877008,
+      "pair_roc_auc": 0.7563022585216542,
+      "pair_monitor_fpr": 0.00990719318838009,
+      "anchor_tp": 86720,
+      "partner_tp": 131073,
+      "overlap_tp": 85734,
+      "union_tp_oracle": 132059,
+      "union_tpr_oracle": 0.45707333787895044,
+      "added_tp_oracle": 45339,
+      "added_tpr_oracle": 0.15692416318534697,
+      "added_tp_pair": 44153,
+      "added_tpr_pair": 0.1528192632639146,
+      "anchor_miss_count": 202203,
+      "test_score_corr": 0.5922290287913753,
+      "test_pos_score_corr": 0.5751621554648013,
+      "test_neg_score_corr": 0.32935737077169597,
+      "partner_feature_count": 32,
+      "partner_feature_overlap_with_anchor": 3
+    },
+    "n_agents": 4
+  }
+]

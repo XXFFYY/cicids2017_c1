@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+lightgbm
+scipy
+matplotlib
+pyarrow
+joblib

@@ -1,0 +1,50 @@
+{
+  "project_root": "D:\\Code\\Python\\cicids2017_c1",
+  "raw_dir": "data_raw/CICIDS2017/MachineLearningCSV",
+  "processed_relpath": "data_processed/cicids2017_all.parquet",
+  "models_dir": "models",
+  "results_dir": "results",
+  "train_days": [
+    "tuesday",
+    "wednesday",
+    "thursday"
+  ],
+  "test_day": "friday",
+  "calib_day": "monday",
+  "n_agents": 4,
+  "n_shared_features": 3,
+  "val_size": 0.2,
+  "calib_split_size": 0.5,
+  "target_fpr": 0.01,
+  "random_state": 42,
+  "l3_dims": [
+    1,
+    4,
+    8,
+    16,
+    32
+  ],
+  "attention_temperature": 0.1,
+  "robust_health_floor": 0.05,
+  "l1_threshold": 0.5,
+  "lgbm_params": {
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "num_leaves": 64,
+    "random_state": 42,
+    "n_jobs": -1,
+    "verbose": -1
+  },
+  "global_lgbm_params": {
+    "n_estimators": 50,
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "random_state": 42,
+    "n_jobs": -1,
+    "verbose": -1
+  },
+  "raw_path": "D:\\Code\\Python\\cicids2017_c1\\data_raw\\CICIDS2017\\MachineLearningCSV",
+  "processed_path": "D:\\Code\\Python\\cicids2017_c1\\data_processed\\cicids2017_all.parquet",
+  "models_path": "D:\\Code\\Python\\cicids2017_c1\\models",
+  "results_path": "D:\\Code\\Python\\cicids2017_c1\\results"
+}
